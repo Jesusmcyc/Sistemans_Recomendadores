@@ -9,3 +9,6 @@ data/ml-latest/
 
 # IDE
 .idea/
+
+# Herramientas de desarrollo internas
+docs/superpowers/
