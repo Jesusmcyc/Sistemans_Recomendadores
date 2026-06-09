@@ -28,19 +28,19 @@
 
 
 # ── Manipulación de datos ──────────────────────────────────────────
-pandas>=1.3
-numpy>=1.21
+pandas>=1.3            # pip install pandas
+numpy>=1.21            # pip install numpy
 
 # ── Machine Learning ──────────────────────────────────────────────
 # TfidfVectorizer, CountVectorizer, cosine_similarity, linear_kernel
-scikit-learn>=1.0
+scikit-learn>=1.0      # pip install scikit-learn
 
 # ── Visualización ─────────────────────────────────────────────────
-matplotlib>=3.4
-seaborn>=0.11
+matplotlib>=3.4        # pip install matplotlib
+seaborn>=0.11          # pip install seaborn
 
 # ── Jupyter ───────────────────────────────────────────────────────
-jupyter>=1.0           # servidor de notebooks
-ipykernel>=6.0         # kernel Python para Jupyter
-nbformat>=5.1          # lectura/escritura de archivos .ipynb
-nbconvert>=6.0         # ejecución headless: jupyter nbconvert --execute
+jupyter>=1.0           # pip install jupyter
+ipykernel>=6.0         # pip install ipykernel
+nbformat>=5.1          # pip install nbformat
+nbconvert>=6.0         # pip install nbconvert
