@@ -1,3 +1,9 @@
+# Instalación rápida (recomendado en Windows):
+#   .\setup.ps1
+#
+# Instalación manual:
+#   pip install -r requirements.txt
+#
 pandas
 numpy
 scikit-learn>=1.0
