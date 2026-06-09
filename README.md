@@ -17,7 +17,24 @@ Implementación de tres sistemas de recomendación de películas de complejidad 
 ## Requisitos
 
 - Python 3.10+
-- Los archivos de datos en la carpeta `data/`:
+
+### Dependencias Python
+
+| Librería | Versión mínima | Uso en el proyecto | Instalación |
+|---|---|---|---|
+| `pandas` | 1.3 | Carga y manipulación de datos | `pip install pandas` |
+| `numpy` | 1.21 | Operaciones numéricas | `pip install numpy` |
+| `scikit-learn` | 1.0 | TF-IDF, CountVectorizer, similitud coseno | `pip install scikit-learn` |
+| `matplotlib` | 3.4 | Generación de gráficas | `pip install matplotlib` |
+| `seaborn` | 0.11 | Estilos de visualización | `pip install seaborn` |
+| `jupyter` | 1.0 | Servidor de notebooks | `pip install jupyter` |
+| `ipykernel` | 6.0 | Kernel Python para Jupyter | `pip install ipykernel` |
+| `nbformat` | 5.1 | Lectura y escritura de archivos `.ipynb` | `pip install nbformat` |
+| `nbconvert` | 6.0 | Ejecución headless del notebook | `pip install nbconvert` |
+
+### Archivos de datos
+
+Los archivos de datos deben estar en la carpeta `data/`:
 
 | Archivo | Fuente | Requerido para |
 |---|---|---|
