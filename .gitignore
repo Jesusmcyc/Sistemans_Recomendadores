@@ -1,0 +1,11 @@
+# Datos grandes — descargar manualmente de Kaggle
+data/credits.csv
+data/ratings.csv
+data/ml-latest.zip
+data/ml-latest/
+
+# Entorno virtual
+.venv/
+
+# IDE
+.idea/
